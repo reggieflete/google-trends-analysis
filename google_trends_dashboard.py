@@ -35,8 +35,6 @@ palette = sns.color_palette("tab10", len(df_yearly.columns[1:]))
 for idx, col in enumerate(df_yearly.columns[1:]):
     st.line_chart(df_yearly["Year"], df_yearly[col], marker="o", label=col, color=palette[idx])
 
-", fontsize=14, fontweight="bold", color="darkblue")
-
 
 plt.xticks(fontsize=10, fontweight="bold")
 plt.yticks(fontsize=10)
@@ -74,8 +72,6 @@ palette = sns.color_palette("tab10", len(df_yearly.columns[1:]))
 
 for idx, col in enumerate(df_yearly.columns[1:]):
     st.line_chart(df_yearly["Year"], df_yearly[col], marker="o", label=col, color=palette[idx])
-
-", fontsize=14, fontweight="bold", color="darkblue")
 
 
 plt.xticks(fontsize=10, fontweight="bold")
