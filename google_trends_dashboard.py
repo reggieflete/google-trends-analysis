@@ -1,3 +1,13 @@
+
+import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+st.set_page_config(page_title="Google Trends Dashboard", layout="wide")
+st.title("📊 Google Trends Analysis")
+
+# All code below was generated from notebooks
 # --- From 1.nb_5years_search.ipynb ---
 
 #!/usr/bin/env python
